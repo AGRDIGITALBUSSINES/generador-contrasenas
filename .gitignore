@@ -1,0 +1,59 @@
+# Ignorar todos los archivos del directorio padre que no pertenecen al proyecto
+../*.py
+../*.txt
+../*.png
+../*.jpg
+../*.csv
+
+# Archivos de contraseñas generadas
+password.txt
+*.txt
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.bak
+*.orig
